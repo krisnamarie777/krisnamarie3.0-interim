@@ -8,8 +8,13 @@ Grid styles
     display: grid;
 }
 
+.full-width-container { /*use instead of container to fill screen width */
+    width: 98%;
+    margin: 20px auto;
+    display: grid;
+}
 
-.full-container, .mx-col2-container, .mx-col3-container, .mx-col4-container {
+.mx-col1-container, .mx-col2-container, .mx-col3-container, .mx-col4-container {
     grid-template-columns: repeat( 1, 1fr); /*start with mobile first */
 }
 
