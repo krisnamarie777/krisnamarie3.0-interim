@@ -32,6 +32,7 @@ Grid styles
 
     .container {
         gap: 22px;
+        max-width: 1440px;
     }    
 
     .mx-col4-container {
