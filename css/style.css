@@ -1,0 +1,63 @@
+/***
+MAIN STYLESHEET
+style.css
+****/
+
+/* Type */
+
+body {
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.site-title, h2 {
+    font-family: Sacramento, sans-serif; /* Avoiding ugly script fonts as defualt*/
+    font-weight: 400;
+    line-height: 1;
+}
+
+h2 { 
+    font-size: 2.25em;
+ }
+
+h1, h3, h4, h5, h6 {
+    font-family: Lora, serif;
+    font-weight: 700;
+}
+
+
+.site-title {
+    font-size: 3em;
+
+}
+
+.section-title {
+    font-size: 2em;
+    font-variant: small-caps;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.75em;
+}
+
+h4 {
+    font-size: 1.5em;
+}
+
+h5 {
+    font-size: 1.25em;
+}
+
+h6 {
+    font-size: 1em;
+}
+
+p {
+    line-height: 1.6;
+}
+
+.section-lead {
+    font-style: italic;
+    font-size: 1.25em;
+}
