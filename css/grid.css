@@ -1,0 +1,41 @@
+/***
+Grid styles
+****/
+
+.container {
+    max-width: 98%;
+    margin: 20px auto;
+    display: grid;
+}
+
+
+.full-container, .mx-col2-container, .mx-col3-container, .mx-col4-container {
+    grid-template-columns: repeat( 1, 1fr); /*start with mobile first */
+}
+
+@media screen and (min-width: 740px) {
+
+    .container {
+        gap: 16px;
+    }
+    .mx-col2-container, .mx-col4-container {
+        grid-template-columns: repeat( 2, 1fr); /*there is no room for 4 */
+    }
+
+    .mx-col3-container {
+        grid-template-columns: repeat( 3, 1fr);
+    }
+
+}
+
+@media screen and (min-width: 1140px) {
+
+    .container {
+        gap: 22px;
+    }    
+
+    .mx-col4-container {
+        grid-template-columns: repeat( 4, 1fr);
+    }
+
+}
