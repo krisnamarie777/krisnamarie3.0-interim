@@ -15,7 +15,7 @@ is designed as a personal website.
 Files in /images folder and the actual front facing text content
 is copyright 2025 Krisna Meneice
 
-All code is Licensed with an MIT License unless otherwise notee
+All code is Licensed with an MIT License unless otherwise noted
 in LICENSE file.
 
 ## Contact
