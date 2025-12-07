@@ -86,7 +86,7 @@ p {
     min-height: 25vh;
 }
 
-@media screen and (min-width: 560px) {
+@media screen and (min-width: 480px) and (max-width: 560px) {
     
     .hero-home {
         background-image: url('../img/assets/km_butterflygarden560.png');
@@ -94,7 +94,7 @@ p {
 
 }
 
-@media screen and (min-width: 720px) {
+@media screen and (max-width: 720px) {
     
     .hero-home {
         background-image: url('../img/assets/km_butterflygarden720.png');
@@ -102,7 +102,7 @@ p {
 
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (max-width: 960px) {
     
     .hero-home {
         background-image: url('../img/assets/km_butterflygarden960.png');
@@ -110,7 +110,7 @@ p {
 
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (max-width: 1280px) {
     
     .hero-home {
         background-image: url('../img/assets/km_butterflygarden1280.png');
