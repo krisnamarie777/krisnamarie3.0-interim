@@ -87,7 +87,7 @@ p {
 
 .hero-home {
     background-image: url('../img/assets/km_butterflygarden480.png');
- 
+    background-position-y: 30px;
 }
 
 @media screen and (min-width: 480px) and (max-width: 560px) {
@@ -143,4 +143,5 @@ p {
     text-align: right;
     background: whitesmoke;
     border-bottom: solid 1px #333;
+    font-size: 0.8em;
 }
