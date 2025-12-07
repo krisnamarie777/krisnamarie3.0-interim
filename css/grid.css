@@ -4,7 +4,7 @@ Grid styles
 
 .container {
     max-width: 98%;
-    margin: 20px auto;
+    margin: 0 auto 20px auto;
     display: grid;
 }
 
@@ -22,7 +22,7 @@ Grid styles
 @media screen and (min-width: 740px) {
 
     .container {
-        gap: 16px;
+        column-gap: 16px;
     }
     .mx-col2-container, .mx-col4-container {
         grid-template-columns: repeat( 2, 1fr); /*there is no room for 4 */
@@ -37,7 +37,7 @@ Grid styles
 @media screen and (min-width: 1140px) {
 
     .container {
-        gap: 22px;
+        column-gap: 22px;
         max-width: 1440px;
     }    
 

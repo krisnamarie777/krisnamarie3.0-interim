@@ -9,9 +9,6 @@ body {
     color: #333;
 }
 
-footer {
-    background: whitesmoke;
-}
 
 /* TYPE */
 
@@ -21,30 +18,37 @@ body {
     font-family: Lora, serif;
 }
 
-.section-title {
+.site-title {
     font-family: Sacramento, sans-serif; /* Avoiding ugly script fonts as defualt*/
     font-weight: 400;
-    line-height: 1;
+    line-height: 1.2;
+    text-align: center;
+    font-size: 3.25em;
+    display: grid;
+    grid-template-columns: repeat(1 ,1fr);
+    padding-top: 20px;
+}
+
+.site-tagline {
+    display: block;
+    font-family: Lora, serif;
+    font-size: 1rem;
+    font-style: italic;
+}
+
+
+.section-title {
+    font-variant: small-caps;
+    font-size: 2.25em;
+}
+
+h2, h3, h4, h5, h6 {
+    font-weight: 700;
 }
 
 h2 { 
     font-size: 2.25em;
  }
-
-h2, h3, h4, h5, h6 {
-    font-weight: 700;
-    font-variant: small-caps;
-}
-
-
-.section-title {
-    font-size: 3em;
-}
-
-.section-title {
-    font-size: 2em;
-    text-align: center;
-}
 
 h3 {
     font-size: 1.75em;
@@ -71,10 +75,13 @@ p {
     font-size: 1.25em;
 }
 
-
-.copyright {
-    font-size: 0.75em;
+/*HEADERS */
+#site-header {
+    height: 6.8em;
+    background: #333;
+    color: whitesmoke;
 }
+
 
 /* HEROS */
 
@@ -144,4 +151,18 @@ p {
     background: whitesmoke;
     border-bottom: solid 1px #333;
     font-size: 0.8em;
+}
+
+
+/*FOOTERS */
+
+.page-footer {
+    background: #555;
+    color: whitesmoke;
+    height: 40px;
+}
+
+.copyright {
+    font-size: 0.75em;
+    margin: 0;
 }
