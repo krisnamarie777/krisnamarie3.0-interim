@@ -6,8 +6,10 @@ style.css
 /* Type */
 
 body {
+    color: #333;
     font-size: 1.25rem;
     font-weight: 400;
+    font-family: Lora, serif;
 }
 
 .section-title {
@@ -21,7 +23,6 @@ h2 {
  }
 
 h2, h3, h4, h5, h6 {
-    font-family: Lora, serif;
     font-weight: 700;
     font-variant: small-caps;
 }
@@ -60,4 +61,5 @@ p {
     font-style: italic;
     font-size: 1.25em;
 }
+
 
