@@ -8,9 +8,10 @@ Grid styles
     display: grid;
 }
 
-.full-width-container { /*use instead of container to fill screen width */
-    width: 98%;
-    margin: 20px auto;
+.full-container { /*use instead of container to fill screen width */
+    width: 100vw;
+    margin: 0;
+    padding: 0;
     display: grid;
 }
 

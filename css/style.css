@@ -75,3 +75,11 @@ p {
 .copyright {
     font-size: 0.75em;
 }
+
+/* HEROS */
+
+.hero-home {
+    background-image: url('../img/assets/km_butterflygarden480.png');
+    border-bottom: solid 1px #333;
+    min-height: 40vh;
+}
