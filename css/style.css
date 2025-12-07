@@ -3,10 +3,16 @@ MAIN STYLESHEET
 style.css
 ****/
 
-/* Type */
+/* GENERAL */
 
 body {
     color: #333;
+}
+
+
+/* TYPE */
+
+body {
     font-size: 1.25rem;
     font-weight: 400;
     font-family: Lora, serif;
