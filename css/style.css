@@ -9,6 +9,9 @@ body {
     color: #333;
 }
 
+footer {
+    background: whitesmoke;
+}
 
 /* TYPE */
 
@@ -69,3 +72,6 @@ p {
 }
 
 
+.copyright {
+    font-size: 0.75em;
+}
