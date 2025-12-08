@@ -18,23 +18,7 @@ body {
     font-family: Lora, serif;
 }
 
-.site-title {
-    font-family: Sacramento, sans-serif; /* Avoiding ugly script fonts as defualt*/
-    font-weight: 400;
-    line-height: 1.2;
-    text-align: center;
-    font-size: 3.25em;
-    display: grid;
-    grid-template-columns: repeat(1 ,1fr);
-    padding-top: 20px;
-}
 
-.site-tagline {
-    display: block;
-    font-family: Lora, serif;
-    font-size: 1rem;
-    font-style: italic;
-}
 
 
 .section-title {
@@ -77,69 +61,51 @@ p {
 
 /*HEADERS */
 #site-header {
-    height: 6.8em;
     background: #333;
     color: whitesmoke;
 }
 
+.site-title {
+    font-family: Sacramento, sans-serif; /* Avoiding ugly script fonts as defualt*/
+    font-weight: 400;
+    line-height: 1.2;
+    text-align: center;
+    font-size: 2.75em;
+    display: block;
+    padding: 10px 0;
+}
+
+.site-tagline {
+    display: block;
+    font-family: Lora, serif;
+    font-size: 1rem;
+    font-style: italic;
+}
 
 /* HEROS */
 
-.hero { 
-    background-repeat: repeat;
-    border-top: solid 1px #333;
-    position: relative;
-    min-height: 25vh;
-}
-
 .hero-home {
-    background-image: url('../img/assets/km_butterflygarden480.png');
-    background-position-y: 30px;
+    background-image: url('../img/assets/km_butterflygarden1280.png');  /*need to recrop images */
 }
+  
 
-@media screen and (min-width: 480px) and (max-width: 560px) {
-    
-    .hero-home {
-        background-image: url('../img/assets/km_butterflygarden560.png');
+@media screen and (min-height: 600px ) {
+    .hero { 
+        background-repeat: repeat;
+        border-top: solid 1px #333;
+        position: relative;
+        min-height: 15vh;
+        background-size: 60%;  /*changes size in relation to screen width*/
     }
-
 }
 
-@media screen and (max-width: 720px) {
-    
-    .hero-home {
-        background-image: url('../img/assets/km_butterflygarden720.png');
-    }
 
-}
-
-@media screen and (max-width: 960px) {
-    
-    .hero-home {
-        background-image: url('../img/assets/km_butterflygarden960.png');
-    }
-
-}
-
-@media screen and (max-width: 1280px) {
-    
-    .hero-home {
-        background-image: url('../img/assets/km_butterflygarden1280.png');
-    }
-
-}
-
-@media screen and (min-height: 400px) {
+@media screen and (min-width: 600px) {
     .hero {
-        min-height: 60vh;
+        min-height: 30vh;
     }
 }
 
-@media screen and (min-height: 700px) {
-    .hero {
-        min-height: 40vh;
-    }
-}
 
 .hero-image-text {
     width: 100%;
